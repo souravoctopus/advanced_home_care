@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- TEMPORARY placeholder mark. Replace this file with the official AHC logo. -->
+  <path d="M8 29.5 32 9l24 20.5" stroke="#1645B8" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14 26v24a6 6 0 0 0 6 6h24a6 6 0 0 0 6-6V26" stroke="#1645B8" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="28" y="28" width="8" height="21" rx="2.5" fill="#10B995"/>
+  <rect x="21.5" y="34.5" width="21" height="8" rx="2.5" fill="#10B995"/>
+</svg>
