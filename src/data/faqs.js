@@ -5,7 +5,7 @@ export const faqs = [
     category: 'services',
     question: 'What services does Advanced Home Care provide?',
     answer:
-      'We provide home nursing care, elderly care, patient care at home, full-time and part-time caregivers, medicine management, food preparation and meal assistance, post-surgery care, bedside attendants and personal care assistance. You can explore each service on our Services page.',
+      'We provide home nursing care, elderly care, patient care at home, full-time and part-time caregivers, medicine management, food preparation and meal assistance, post-surgery care, bedside attendants, personal care assistance and ICU at home. You can explore each service on our Services page.',
   },
   {
     id: 'faq-02',

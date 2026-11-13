@@ -8,6 +8,7 @@ import meals from '../assets/images/services/meal-assistance.jpg'
 import postSurgery from '../assets/images/services/post-surgery-care.jpg'
 import bedside from '../assets/images/services/bedside-attendant.jpg'
 import personalCare from '../assets/images/services/personal-care.jpg'
+import icuAtHome from '../assets/images/services/icu-at-home.jpg'
 
 /**
  * Service catalogue. Shape mirrors what a future `GET /services` endpoint
@@ -29,7 +30,7 @@ export const services = [
     category: 'medical',
     icon: 'stethoscope',
     image: homeNursing,
-    imageAlt: 'Nurse checking an elderly man’s blood pressure at home',
+    imageAlt: 'Doctor checking a patient’s blood pressure',
     summary:
       'Professional nursing assistance at home, from wound dressing and injections to post-operative support and routine health monitoring.',
     description:
@@ -53,7 +54,7 @@ export const services = [
     category: 'caregivers',
     icon: 'heartHandshake',
     image: elderlyCare,
-    imageAlt: 'Smiling caregiver talking with an elderly woman',
+    imageAlt: 'Elderly woman in a sari sharing a tender moment with her granddaughter',
     summary:
       'Respectful, patient assistance for senior citizens with daily routines, mobility, hygiene and warm companionship.',
     description:
@@ -77,7 +78,7 @@ export const services = [
     category: 'medical',
     icon: 'bed',
     image: patientCare,
-    imageAlt: 'Caregiver assisting an elderly man beside his wheelchair',
+    imageAlt: 'Elderly woman in a sari resting on her bed at home',
     summary:
       'Hands-on help for bedridden and recovering patients, including feeding, bathing, mobility and day-to-day care coordination.',
     description:
@@ -101,7 +102,7 @@ export const services = [
     category: 'caregivers',
     icon: 'userCheck',
     image: fullTime,
-    imageAlt: 'Caregiver helping an elderly couple with an activity at home',
+    imageAlt: 'Smiling elderly woman sitting with a young family member',
     summary:
       'A dedicated caregiver at home for day and night assistance, with care shaped around the patient’s routine.',
     description:
@@ -124,7 +125,7 @@ export const services = [
     category: 'caregivers',
     icon: 'clock',
     image: partTime,
-    imageAlt: 'Caregiver sitting with two elderly women during a knitting activity',
+    imageAlt: 'Joyful elderly woman holding a smiling young child',
     summary:
       'Flexible home assistance through scheduled visits, covering personal care and daily activities when you need it most.',
     description:
@@ -171,7 +172,7 @@ export const services = [
     category: 'daily',
     icon: 'utensils',
     image: meals,
-    imageAlt: 'Woman preparing fresh home-cooked food in a kitchen',
+    imageAlt: 'Woman cooking fresh parathas in a home kitchen',
     summary:
       'Fresh daily meals prepared to the patient’s dietary instructions, with feeding assistance wherever it is needed.',
     description:
@@ -195,7 +196,7 @@ export const services = [
     category: 'medical',
     icon: 'activity',
     image: postSurgery,
-    imageAlt: 'Caregiver supporting an elderly woman using a walker',
+    imageAlt: 'Elderly man in a turban resting his hands on a walking stick',
     summary:
       'Recovery support after surgery, including mobility help, hygiene and coordination with the treating medical team.',
     description:
@@ -219,7 +220,7 @@ export const services = [
     category: 'daily',
     icon: 'heartPulse',
     image: bedside,
-    imageAlt: 'Attendant checking blood pressure at a patient’s bedside',
+    imageAlt: 'Doctor listening to a patient’s heartbeat with a stethoscope',
     summary:
       'Attentive day-to-day bedside assistance focused on patient comfort, hygiene, feeding and movement.',
     description:
@@ -243,7 +244,7 @@ export const services = [
     category: 'daily',
     icon: 'bath',
     image: personalCare,
-    imageAlt: 'Elderly hands resting on a walking cane',
+    imageAlt: 'Elderly man sitting comfortably in a chair',
     summary:
       'Discreet help with bathing, grooming, dressing and other activities of daily living, always with dignity.',
     description:
@@ -253,6 +254,30 @@ export const services = [
       'Seniors with limited mobility',
       'People recovering from illness',
       'Anyone who needs gentle help with daily routines',
+    ],
+  },
+  {
+    id: 'svc-11',
+    slug: 'icu-at-home',
+    title: 'ICU at Home',
+    category: 'medical',
+    icon: 'monitorDot',
+    image: icuAtHome,
+    imageAlt: 'Patient monitor and medical equipment beside a patient',
+    summary:
+      'Critical care set up at home, with medical equipment, trained nursing staff and continuous monitoring, as advised by the treating doctor.',
+    description:
+      'For patients who need intensive, round-the-clock medical attention, we help set up ICU-level care in the comfort of home. Equipment and care are arranged according to the treating doctor’s advice, with trained nursing staff monitoring the patient and keeping the doctor and family updated.',
+    features: [
+      'ICU setup at home with the required medical equipment',
+      'Trained critical care nursing staff',
+      'Continuous monitoring of vital signs',
+      'Coordination with the treating doctor',
+    ],
+    suitableFor: [
+      'Critically ill patients who need continuous monitoring',
+      'Patients discharged from hospital ICU who still need intensive care',
+      'Families who prefer critical care at home on medical advice',
     ],
   },
 ]

@@ -12,7 +12,7 @@ export default function AboutSection({ showCta = true }) {
         <Reveal className="about__media">
           <img
             src={aboutImage}
-            alt="Caregiver holding hands with elderly women in a warm, friendly moment"
+            alt="A younger woman holding an elderly woman’s hand"
             loading="lazy"
             width="1200"
             height="800"

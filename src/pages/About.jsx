@@ -36,7 +36,7 @@ export default function About() {
           <Reveal className="story__media">
             <img
               src={consultationImage}
-              alt="Care professional checking a woman’s blood pressure"
+              alt="An elderly couple enjoying a sunny day together"
               loading="lazy"
               width="1200"
               height="800"

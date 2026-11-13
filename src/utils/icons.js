@@ -17,6 +17,7 @@ import {
   Hourglass,
   House,
   MessageSquare,
+  MonitorDot,
   Moon,
   Pill,
   Repeat,
@@ -29,6 +30,7 @@ import {
   UserRound,
   Users,
   Utensils,
+  Video,
 } from 'lucide-react'
 
 /** Maps serialisable icon keys (used in data files / API) to components. */
@@ -51,6 +53,7 @@ export const iconMap = {
   hourglass: Hourglass,
   house: House,
   messageSquare: MessageSquare,
+  monitorDot: MonitorDot,
   moon: Moon,
   pill: Pill,
   repeat: Repeat,
@@ -63,6 +66,7 @@ export const iconMap = {
   userRound: UserRound,
   users: Users,
   utensils: Utensils,
+  video: Video,
 }
 
 export const getIcon = (key) => iconMap[key] || HeartPulse

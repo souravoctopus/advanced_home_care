@@ -102,6 +102,14 @@ export const whyChooseUs = [
     title: 'Dedicated Customer Assistance',
     text: 'A responsive team to answer questions, discuss changes and coordinate ongoing care.',
   },
+  {
+    // `featured` renders as a full-width highlighted card in the grid.
+    featured: true,
+    badge: '24×7',
+    icon: 'video',
+    title: '24×7 Emergency Teleconsultation with a Doctor',
+    text: 'Speak to a doctor any time, day or night, when an urgent health concern comes up at home. Get timely medical guidance without waiting, wherever you are.',
+  },
 ]
 
 export const processSteps = [
@@ -185,7 +193,7 @@ export const teamRoles = [
     isSample: true,
     role: 'Nursing Professionals',
     image: nursingImg,
-    imageAlt: 'Representative image of a nursing professional',
+    imageAlt: 'Representative image of a female doctor',
     text: 'Qualified nurses for clinical tasks such as dressings, injections and health monitoring.',
     skills: ['Wound care', 'Injections', 'Vitals monitoring'],
   },
@@ -194,7 +202,7 @@ export const teamRoles = [
     isSample: true,
     role: 'Patient Care Assistants',
     image: assistantImg,
-    imageAlt: 'Representative image of a patient care assistant',
+    imageAlt: 'Representative image of a healthcare worker in scrubs',
     text: 'Hands-on assistance for bedridden and recovering patients through the day.',
     skills: ['Mobility help', 'Feeding', 'Hygiene'],
   },
@@ -203,7 +211,7 @@ export const teamRoles = [
     isSample: true,
     role: 'Elderly Caregivers',
     image: elderlyImg,
-    imageAlt: 'Representative image of an elderly caregiver',
+    imageAlt: 'Representative image of a smiling caregiver',
     text: 'Warm companionship and daily routine support for senior family members.',
     skills: ['Companionship', 'Daily routines', 'Safe walking'],
   },
@@ -212,7 +220,7 @@ export const teamRoles = [
     isSample: true,
     role: 'Home Care Attendants',
     image: attendantImg,
-    imageAlt: 'Representative image of a home care attendant',
+    imageAlt: 'Representative image of a medical professional',
     text: 'Attentive bedside and household support focused on patient comfort.',
     skills: ['Bedside care', 'Meal help', 'Comfort care'],
   },

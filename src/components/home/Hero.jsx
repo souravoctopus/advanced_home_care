@@ -47,7 +47,7 @@ export default function Hero() {
           <div className="hero__image-frame">
             <img
               src={heroImage}
-              alt="A smiling caregiver sharing a warm moment with an elderly woman"
+              alt="A health professional examining an elderly man with a stethoscope"
               width="1200"
               height="800"
               fetchPriority="high"

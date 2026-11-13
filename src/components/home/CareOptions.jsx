@@ -29,7 +29,7 @@ export default function CareOptions() {
             </li>
           </ul>
           <div className="care-options__image">
-            <img src={careImage} alt="A caregiver sharing a joyful moment with an elderly woman" loading="lazy" width="1200" height="800" />
+            <img src={careImage} alt="A smiling elderly couple" loading="lazy" width="1200" height="800" />
           </div>
         </div>
 

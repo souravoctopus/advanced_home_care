@@ -29,6 +29,7 @@ export const footerNav = {
       { label: 'Part-Time Caregiver', to: '/services/part-time-caregiver' },
       { label: 'Food Preparation', to: '/services/food-preparation-meal-assistance' },
       { label: 'Medicine Assistance', to: '/services/medicine-management' },
+      { label: 'ICU at Home', to: '/services/icu-at-home' },
     ],
   },
   support: {
